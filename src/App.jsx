@@ -5,6 +5,8 @@ import {Header, Footer} from './components/index'
 import authService from './appwrite/auth'
 import {login, logout} from "./store/authSlice"
 import { Outlet } from 'react-router-dom'
+import Login from './components/Login'
+import SignUp from './components/SignUp'
 
 
 function App() {
@@ -31,6 +33,7 @@ function App() {
         <Header />
         <main>
           {/* <Outlet /> */}
+          
         </main>
         <Footer />
       </div>
